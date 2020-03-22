@@ -1,0 +1,78 @@
+<div class="card-body">
+    <ul class="timeline">
+        <li>
+            <div class="timeline-badge"><i class="fa fa-check"></i>
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">{{news[0]?news[0].title:''}}</h4>
+                    <p><small class="text-muted"><i class="fa fa-clock-o"></i> {{showDate(news[0])}}</small>
+                    </p>
+                </div>
+                <div class="timeline-body">
+                    <p>{{news[0]?news[0].description:''}}</p>
+                </div>
+            </div>
+        </li>
+        <li class="timeline-inverted">
+            <div class="timeline-badge warning"><i class="fa fa-credit-card"></i>
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">{{news[1]?news[1].title:''}}</h4>
+                </div>
+                <div class="timeline-body">
+                    <p>{{news[1]?news[1].description:''}}</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="timeline-badge danger"><i class="fa fa-bomb"></i>
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">{{news[2]?news[2].title:''}}</h4>
+                </div>
+                <div class="timeline-body">
+                    <p>{{news[2]?news[2].description:''}}</p>
+
+                </div>
+            </div>
+        </li>
+        <li class="timeline-inverted">
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">{{news[3]?news[3].title:''}}</h4>
+                </div>
+                <div class="timeline-body">
+                    <p>{{news[3]?news[3].description:''}}</p>
+                </div>
+            </div>
+        </li>
+     
+        <li>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">{{news[4]?news[4].title:''}}</h4>
+                </div>
+                <div class="timeline-body">
+                    <p>{{news[4]?news[4].description:''}}</p>
+
+                </div>
+            </div>
+        </li>
+        <li class="timeline-inverted">
+            <div class="timeline-badge success"><i class="fa fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">{{news[5]?news[5].title:''}}</h4>
+                </div>
+                <div class="timeline-body">
+                    <p>{{news[5]?news[5].description:''}}</p>
+
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
